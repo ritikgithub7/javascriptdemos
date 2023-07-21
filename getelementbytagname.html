@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p>this is p</p>
+
+    <p>this is p</p>
+
+    <p>this is p</p>
+
+    <h1>this is h1</h1>
+
+    <ol>
+        <li>apple</li>
+        <li>mango</li>
+        <li>banana</li>
+    </ol>
+
+    <script>
+     var p =   document.getElementsByTagName('p');
+      console.log(p);
+
+      for(var i=0;i<p.length ;i++)
+      {
+        p[i].style.background='yellow';
+      }
+
+      var list = document.getElementsByTagName('li');
+      for(var i=0;i<list.length ;i++)
+      {
+        list[i].style.color='blue';
+        
+
+      }
+
+    </script>
+
+
+</body>
+</html>
